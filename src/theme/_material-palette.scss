@@ -2,15 +2,16 @@
 /* ############ Light mode palettes ################*/
 
 $primary-palette: (
-  100: #5ba2ec,
-  500: #1074b9,
-  700: #004989,
+  100: #8FCC66, // une teinte plus claire de #4A7C2E
+  500: #4A7C2E, // la couleur principale
+  700: #2E521E, // une teinte plus foncée de #4A7C2E
   contrast: (
-    100: rgba(black, 0.87),
-    500: white,
-    700: white
+    100: rgba(black, 0.87), // le contraste pour la teinte 100
+    500: white, // le contraste pour la couleur principale
+    700: white  // le contraste pour la teinte 700
   )
 );
+
 
 $accent-palette: (
   100: #e7ffa5,
