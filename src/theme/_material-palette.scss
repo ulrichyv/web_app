@@ -1,22 +1,20 @@
-
 /* ############ Light mode palettes ################*/
 
 $primary-palette: (
-  100: #8FCC66, // une teinte plus claire de #4A7C2E
-  500: #4A7C2E, // la couleur principale
-  700: #2E521E, // une teinte plus foncée de #4A7C2E
+  100: #a8d5ba, // teinte plus claire
+  500: #4a7c2e, // couleur principale
+  700: #2e521e, // teinte plus foncée
   contrast: (
-    100: rgba(black, 0.87), // le contraste pour la teinte 100
-    500: white, // le contraste pour la couleur principale
-    700: white  // le contraste pour la teinte 700
+    100: rgba(black, 0.87), // contraste pour la teinte 100
+    500: white, // contraste pour la couleur principale
+    700: white  // contraste pour la teinte 700
   )
 );
 
-
 $accent-palette: (
-  100: #e7ffa5,
-  500: #b4d575,
-  700: #83a447,
+  100: #ffebcc, // teinte plus claire
+  500: #ffb84d, // couleur principale
+  700: #cc8a00, // teinte plus foncée
   contrast: (
     100: rgba(black, 0.87),
     500: rgba(black, 0.87),
@@ -38,11 +36,11 @@ $dark-primary-palette: (
 );
 
 $dark-accent-palette: (
-  100: #e7ffa5,
-  500: #b4d575,
-  700: #83a447,
+  100: #ffd1dc, // teinte plus claire
+  500: #ff4081, // couleur principale
+  700: #c60055, // teinte plus foncée
   contrast: (
-    100: white,
+    100: rgba(black, 0.87),
     500: white,
     700: white
   )
