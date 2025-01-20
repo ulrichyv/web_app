@@ -15,7 +15,7 @@ services:
     ports:
       - '80:80'
     environment:
-      - FINERACT_API_URLS=https://57.129.53.74:10543
+      - FINERACT_API_URLS=https://dev.mifos.io,https://demo.mifos.io,https://qa.mifos.io,https://staging.mifos.io,https://mobile.mifos.io,https://demo.fineract.dev,https://57.129.53.74:10543
       - FINERACT_API_URL=http://57.129.53.74:10543
       - FINERACT_API_PROVIDER=/fineract-provider/api
       - FINERACT_API_VERSION=/v1
